@@ -1,0 +1,10 @@
+C:\Windows\system32\cmd.exe /c REG ADD HKLM\SYSTEM\CurrentControlSet\Control\IDConfigDB\HardwareProfiles\0001 /v HwProfileGuid /t REG_SZ /d {%random%%random%-%random%-%random%-%random%%random%} /f
+C:\Windows\system32\cmd.exe /c reg add HKLM\SYSTEM\ControlSet001\Enum\ACPI\PNP0C02 /v Driver /t REG_SZ /d %random%-%random%-%random%-%random% /f
+C:\Windows\system32\cmd.exe /c reg add HKLM\SYSTEM\ControlSet001\Enum\ACPI\PNP0C02 /v ClassGUID /t REG_SZ /d %random%-%random%-%random%-%random% /f
+C:\Windows\system32\cmd.exe /c REG ADD HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName /v ComputerName /t REG_SZ /d DESKTOP-%random% /f
+C:\Windows\system32\cmd.exe /c taskkill /F /IM WmiPrvSE.exe > NUL 2>&1
+C:\Windows\system32\cmd.exe /c reg add HKLM\SYSTEM\CurrentControlSet\Control\Video\Video /v Driver /t REG_SZ /d %random%-%random%-%random%-%random% /f
+C:\Windows\system32\cmd.exe /c REG ADD HKLM\HARDWARE\DESCRIPTION\System\BIOS /v BIOSVersion /t REG_SZ /d %random% /f
+C:\Windows\system32\cmd.exe /c reg add HKLM\SYSTEM\ControlSet001\Enum\ACPI\PNP0C02 /v HardwareID /t REG_SZ /d %random%-%random% /f
+
+IDK IF IT ACUTALLY BYPASSES 💀
